@@ -23,21 +23,27 @@ This is a meta-package that gathers together modules required to hack on Moose.
 
 =head1 DEPENDENCIES
 
+=head2 File::Find::Rule
+
+=head2 Module::Info
+
 =head2 Module::Install
 
 =head2 Module::Install::AuthorRequires
 
+=head2 Module::Install::ExtraTests
+
 =head2 Test::Inline
-
-=head2 Module::Info
-
-=head2 Test::Spelling
-
-=head2 Test::Pod::Coverage
 
 =head2 Test::NoTabs
 
 =head2 Test::Output
+
+=head2 Test::Pod
+
+=head2 Test::Pod::Coverage
+
+=head2 Test::Spelling
 
 =head1 BUGS AND LIMITATIONS
 
