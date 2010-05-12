@@ -12,6 +12,7 @@ requires 'Module::Info';
 requires 'Test::Spelling';
 requires 'Test::Pod::Coverage';
 requires 'Test::NoTabs';
+requires 'Test::Output';
 
 auto_set_repository;
 auto_manifest;

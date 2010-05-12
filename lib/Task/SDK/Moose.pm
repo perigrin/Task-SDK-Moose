@@ -23,19 +23,21 @@ This is a meta-package that gathers together modules required to hack on Moose.
 
 =head1 DEPENDENCIES
 
-=head2 'Module::Install';
+=head2 Module::Install
 
-=head2 'Module::Install::Author=head2';
+=head2 Module::Install::AuthorRequires
 
-=head2 'Test::Inline';
+=head2 Test::Inline
 
-=head2 'Module::Info';
+=head2 Module::Info
 
-=head2 'Test::Spelling';
+=head2 Test::Spelling
 
-=head2 'Test::Pod::Coverage';
+=head2 Test::Pod::Coverage
 
-=head2 'Test::NoTabs';
+=head2 Test::NoTabs
+
+=head2 Test::Output
 
 =head1 BUGS AND LIMITATIONS
 
@@ -45,11 +47,11 @@ L<http://rt.cpan.org>.
 
 =head1 AUTHOR
 
-Chris Prather  C<< <chris@prahter.org> >>
+Chris Prather  C<< <chris@prather.org> >>
 
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2007-2010 Chris Prather C<< <chris@prahter.org> >>. Some
+Copyright (c) 2007-2010 Chris Prather C<< <chris@prather.org> >>. Some
 rights reserved.
 
 This module is free software; you can redistribute it and/or
