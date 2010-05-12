@@ -55,6 +55,9 @@ L<http://rt.cpan.org>.
 
 Chris Prather  C<< <chris@prather.org> >>
 
+Thanks to Jesse Luehrs <doy at tozt dot net> for his help hunting down
+the deps.
+
 =head1 LICENCE AND COPYRIGHT
 
 Copyright (c) 2007-2010 Chris Prather C<< <chris@prather.org> >>. Some
