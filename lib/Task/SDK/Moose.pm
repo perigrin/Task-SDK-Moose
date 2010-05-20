@@ -1,6 +1,6 @@
 package Task::SDK::Moose;
 use strict;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 1;
 __END__
 
@@ -10,8 +10,7 @@ Task::SDK::Moose - A List of Modules required to Author Moose
 
 =head1 VERSION
 
-This document describes Task::SDK::Moose version 0.01
-
+This document describes Task::SDK::Moose version 0.02
 
 =head1 SYNOPSIS
 
@@ -23,27 +22,81 @@ This is a meta-package that gathers together modules required to hack on Moose.
 
 =head1 DEPENDENCIES
 
-=head2 File::Find::Rule
+=head2 Toolchain and Author Test dependencies
 
-=head2 Module::Info
+=head3 'File::Find::Rule';
 
-=head2 Module::Install
+=head3 'Module::Info';
 
-=head2 Module::Install::AuthorRequires
+=head3 'Module::Install';
 
-=head2 Module::Install::ExtraTests
+=head3 'Module::Install::AuthorRequires';
 
-=head2 Test::Inline
+=head3 'Module::Install::ExtraTests';
 
-=head2 Test::NoTabs
+=head3 'Test::Inline';
 
-=head2 Test::Output
+=head3 'Test::NoTabs';
 
-=head2 Test::Pod
+=head3 'Test::Output';
 
-=head2 Test::Pod::Coverage
+=head3 'Test::Pod';
 
-=head2 Test::Spelling
+=head3 'Test::Pod::Coverage';
+
+=head3 'Test::Spelling';
+
+=head2 Optional Test dependencies
+
+=head3 'DBM::Deep';
+
+=head3 'DateTime';
+
+=head3 'DateTime::Calendar::Mayan';
+
+=head3 'DateTime::Format::MySQL';
+
+=head3 'Declare::Constraints::Simple';
+
+=head3 'HTTP::Headers';
+
+=head3 'IO::String';
+
+=head3 'Locale::US';
+
+=head3 'Module::Refresh';
+
+=head3 'Params::Coerce';
+
+=head3 'Regexp::Common';
+
+=head3 'URI';
+
+=head2 Optional Test dependencies for Class::MOP
+
+=head3 'Algorithm::C3';
+
+=head3 'SUPER';
+
+=head3 'Test::LeakTrace';
+
+=head2 Regular Runtime depdendencies
+
+=head3 'Class::MOP' => '1.01';
+
+=head3 'Data::OptList';
+
+=head3 'List::MoreUtils' => '0.12';
+
+=head3 'Scalar::Util' => '1.19';
+
+=head3 'Sub::Exporter' => '0.980';
+
+=head3 'Sub::Name';
+
+=head3 'Task::Weaken';
+
+=head3 'Try::Tiny' => '0.02';
 
 =head1 BUGS AND LIMITATIONS
 
@@ -56,7 +109,8 @@ L<http://rt.cpan.org>.
 Chris Prather  C<< <chris@prather.org> >>
 
 Thanks to Jesse Luehrs <doy at tozt dot net> for his help hunting down
-the deps.
+the deps, and Florian Ragwitz <rafl@debian.org> for adding in the
+optional deps for Moose and CMOP.
 
 =head1 LICENCE AND COPYRIGHT
 
@@ -65,7 +119,6 @@ rights reserved.
 
 This module is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself. See L<perlartistic>.
-
 
 =head1 DISCLAIMER OF WARRANTY
 
