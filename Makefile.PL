@@ -32,6 +32,16 @@ requires 'Params::Coerce';
 requires 'Regexp::Common';
 requires 'URI';
 
+# regular runtime depdendencies
+requires 'Class::MOP' => '1.01';
+requires 'Data::OptList';
+requires 'List::MoreUtils' => '0.12';
+requires 'Scalar::Util' => '1.19';
+requires 'Sub::Exporter' => '0.980';
+requires 'Sub::Name';
+requires 'Task::Weaken';
+requires 'Try::Tiny' => '0.02';
+
 auto_set_repository;
 auto_manifest;
 WriteAll;
