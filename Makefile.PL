@@ -32,6 +32,11 @@ requires 'Params::Coerce';
 requires 'Regexp::Common';
 requires 'URI';
 
+# optional test dependencies for Class::MOP
+requires 'Algorithm::C3';
+requires 'SUPER';
+requires 'Test::LeakTrace';
+
 # regular runtime depdendencies
 requires 'Class::MOP' => '1.01';
 requires 'Data::OptList';
