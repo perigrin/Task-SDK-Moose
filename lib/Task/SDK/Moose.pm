@@ -1,6 +1,6 @@
 package Task::SDK::Moose;
 use strict;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 1;
 __END__
 
@@ -22,81 +22,149 @@ This is a meta-package that gathers together modules required to hack on Moose.
 
 =head1 DEPENDENCIES
 
+=head2 Regular Runtime depdendencies
+
+=head3 Class::MOP' => 1.01
+
+A Meta Object Protocol for Perl 5
+
+=head3 Data::OptList
+
+parse and validate simple name/value option pairs
+
+=head3 List::MoreUtils' => 0.12
+
+Provide the stuff missing in List::Util 
+
+=head3 Scalar::Util' => 1.19
+
+A selection of general-utility scalar subroutines 
+
+=head3 Sub::Exporter' => 0.980
+
+a sophisticated exporter for custom-built routines
+
+=head3 Sub::Name
+
+(re)name a sub
+
+=head3 Task::Weaken
+
+Ensure that a platform has weaken support 
+
+=head3 Try::Tiny' => 0.02
+
+minimal try/catch with proper localization of $@ 
+
 =head2 Toolchain and Author Test dependencies
 
-=head3 'File::Find::Rule';
+=head3 File::Find::Rule
 
-=head3 'Module::Info';
+Alternative interface to File::Find  
 
-=head3 'Module::Install';
+=head3 Module::Info
 
-=head3 'Module::Install::AuthorRequires';
+Information about Perl modules  
 
-=head3 'Module::Install::ExtraTests';
+=head3 Module::Install
 
-=head3 'Test::Inline';
+Standalone, extensible Perl module installer 
 
-=head3 'Test::NoTabs';
+=head3 Module::Install::AuthorRequires
 
-=head3 'Test::Output';
+declare author-only dependencies
 
-=head3 'Test::Pod';
+=head3 Module::Install::ExtraTests
 
-=head3 'Test::Pod::Coverage';
+contextual tests that the harness can ignore  
 
-=head3 'Test::Spelling';
+=head3 Test::Inline
+
+Embed your tests in your code, next to what is being tested
+
+=head3 Test::NoTabs
+
+Check the presence of tabs in your project
+
+=head3 Test::Output
+
+Utilities to test STDOUT and STDERR messages
+
+=head3 Test::Pod
+
+check for POD errors in files 
+
+=head3 Test::Pod::Coverage
+
+Check for pod coverage in your distribution
+
+=head3 Test::Spelling
+
+check for spelling errors in POD files
 
 =head2 Optional Test dependencies
 
-=head3 'DBM::Deep';
+=head3 DBM::Deep
 
-=head3 'DateTime';
+A pure perl multi-level hash/array DBM that supports transactions
 
-=head3 'DateTime::Calendar::Mayan';
+=head3 DateTime
 
-=head3 'DateTime::Format::MySQL';
+A date and time object
 
-=head3 'Declare::Constraints::Simple';
+=head3 DateTime::Calendar::Mayan
 
-=head3 'HTTP::Headers';
+The Mayan Long Count, Haab, and Tzolkin calendars
 
-=head3 'IO::String';
+=head3 DateTime::Format::MySQL
 
-=head3 'Locale::US';
+Parse and format MySQL dates and times
 
-=head3 'Module::Refresh';
+=head3 Declare::Constraints::Simple
 
-=head3 'Params::Coerce';
+Declarative Validation of Data Structures
 
-=head3 'Regexp::Common';
+=head3 HTTP::Headers
 
-=head3 'URI';
+Class encapsulating HTTP Message headers 
+
+=head3 IO::String
+
+Emulate file interface for in-core strings
+
+=head3 Locale::US
+
+two letter codes for state identification in the United States and vice versa.  
+
+=head3 Module::Refresh
+
+Refresh %INC files when updated on disk
+
+=head3 Params::Coerce
+
+Allows your classes to do coercion of parameters 
+
+=head3 Regexp::Common
+
+Provide commonly requested regular expressions
+
+=head3 URI
+
+Uniform Resource Identifiers (absolute and relative)  
 
 =head2 Optional Test dependencies for Class::MOP
 
-=head3 'Algorithm::C3';
+=head3 Algorithm::C3
 
-=head3 'SUPER';
+A module for merging hierarchies using the C3 algorithm
 
-=head3 'Test::LeakTrace';
+=head3 SUPER
 
-=head2 Regular Runtime depdendencies
+control superclass method dispatch
 
-=head3 'Class::MOP' => '1.01';
+=head3 Test::LeakTrace
 
-=head3 'Data::OptList';
-
-=head3 'List::MoreUtils' => '0.12';
-
-=head3 'Scalar::Util' => '1.19';
-
-=head3 'Sub::Exporter' => '0.980';
-
-=head3 'Sub::Name';
-
-=head3 'Task::Weaken';
-
-=head3 'Try::Tiny' => '0.02';
+Traces memory leaks
 
 =head1 BUGS AND LIMITATIONS
 

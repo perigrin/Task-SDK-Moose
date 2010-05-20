@@ -1,4 +1,7 @@
 
+2010-05-20 - 0.03
+    + Fix/Update Documentation (perigrin)
+
 2010-05-20 - 0.02
     + Add all optional deps for Moose / CMOP (rafl)
         + Document additional deps (perigrin)
